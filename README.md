@@ -1,2 +1,2 @@
-# primeiro_projeto
-Desenvolvendo meu primeiro projeto em Python
+# primeiro_desafio
+Resolvendo meu primeiro desafio em HTML
