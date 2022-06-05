@@ -20,7 +20,7 @@ while opcao != 0:
         deposito = float(input('Digite o valor desejado: '))
         deposito = deposito
         print('Depósito realizado com sucesso!')
-        nova_operacao = input('Deseja realizar nova oepração? Digite "S - Sim" ou "N - Não": ')
+        nova_operacao = input('Deseja realizar nova oepração? Digite "S - Sim" ou "N - Não": ').upper()
         if nova_operacao == 'S':
             opcao = int(input('Digite a opção desejada: '))
         else:
@@ -31,7 +31,7 @@ while opcao != 0:
         saque = saque
         saque = float(input('Digite o valor desejado: '))
         print('Saque realizado com sucesso!')
-        nova_operacao = input('Deseja realizar nova oepração? Digite "S - Sim" ou "N - Não": ')
+        nova_operacao = input('Deseja realizar nova oepração? Digite "S - Sim" ou "N - Não": ').upper()
         if nova_operacao == 'S':
             opcao = int(input('Digite a opção desejada: '))
         else:
@@ -41,7 +41,7 @@ while opcao != 0:
     elif opcao == 3:
         saldo_conta = deposito - saque
         print('Saldo em conta é: {}.'.format(saldo_conta))
-        nova_operacao = input('Deseja realizar nova oepração? Digite "S - Sim" ou "N - Não": ')
+        nova_operacao = input('Deseja realizar nova oepração? Digite "S - Sim" ou "N - Não": ').upper()
         if nova_operacao == 'S':
             opcao = int(input('Digite a opção desejada: '))
         else:
